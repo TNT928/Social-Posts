@@ -1,5 +1,12 @@
 import { Component } from '@angular/core';
 
+
+export interface Post {
+  title:string,
+  thought:string
+
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,3 +15,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-lab2';
 }
+

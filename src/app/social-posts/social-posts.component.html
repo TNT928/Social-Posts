@@ -1,0 +1,12 @@
+<h1>My Thoughts</h1>
+   <post-form (submitted)= "onSubmit($event)"></post-form> 
+<div id="container">
+
+            <div id="posts">
+              
+                <post (deleted)= "onDelete(i)" [post]= "post" *ngFor="let post of posts; let i= index"></post>
+               
+            </div>
+
+</div>
+

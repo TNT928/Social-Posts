@@ -1,0 +1,27 @@
+div{
+   background-color: white;
+   margin: 0;
+  
+}
+
+p{
+    margin: 0;
+   
+}
+
+#posts{
+    border-bottom: 1px solid black;
+    margin: 10px;
+   
+}
+
+button{
+    float: right;
+     border:none;
+    background: none;
+}
+
+p{
+    font-size: 24px;
+    font-weight: bold;
+}
