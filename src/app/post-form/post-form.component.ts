@@ -7,6 +7,10 @@ import{Post} from '../post';
   styleUrls: ['./post-form.component.css']
 })
 export class PostFormComponent implements OnInit {
+title;
+thought;
+
+
   @Input() post:Post
   @Output() submitted = new EventEmitter()
 
